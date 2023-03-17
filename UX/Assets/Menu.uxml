@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=ea41c85df8b63984cba8898fb5797111&amp;type=3#Style" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement style="width: 50%; height: 50%; justify-content: center; align-items: center; position: absolute; background-color: rgb(50, 153, 217); background-image: url(&apos;project://database/Assets/Water.jpg?fileID=2800000&amp;guid=850b0e89c1756514ca167f67fda827be&amp;type=3#Water&apos;);">
+            <ui:Label tabindex="-1" text="Scallwacks of Atlantis" display-tooltip-when-elided="true" style="top: -108px; font-size: 30px; color: rgba(0, 0, 0, 255);" />
+            <ui:Button tabindex="-1" text="Options" display-tooltip-when-elided="true" class="buttonstyle" style="height: 48px; width: 231px; bottom: auto; background-image: url(&apos;project://database/Assets/WoodBoard.jpg?fileID=2800000&amp;guid=9de4b13fc3f66fb4cb147d9fbca00559&amp;type=3#WoodBoard&apos;); position: absolute; top: 100px; color: rgba(0, 0, 0, 255);" />
+            <ui:Button tabindex="-1" text="Exit" display-tooltip-when-elided="true" class="buttonstyle" style="height: 43px; width: 237px; bottom: auto; background-image: url(&apos;project://database/Assets/WoodBoard.jpg?fileID=2800000&amp;guid=9de4b13fc3f66fb4cb147d9fbca00559&amp;type=3#WoodBoard&apos;); position: absolute; top: 150px; color: rgba(0, 0, 0, 255);" />
+            <ui:Button tabindex="-1" text="Start" display-tooltip-when-elided="true" enable-rich-text="true" class="buttonstyle" style="height: 48px; width: 231px; bottom: auto; background-image: url(&apos;project://database/Assets/WoodBoard.jpg?fileID=2800000&amp;guid=9de4b13fc3f66fb4cb147d9fbca00559&amp;type=3#WoodBoard&apos;); position: absolute; top: 50px; color: rgba(0, 0, 0, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
